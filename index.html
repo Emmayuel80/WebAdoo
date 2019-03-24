@@ -13,39 +13,63 @@
 
 <body>
     <!-- Always shows a header, even in smaller screens. -->
-    pues cambie esta linea kek
-    <main class="mdl-layout__content">
-        <div class="page-content">
-            <div id="page-content">
-                <h1>Introducción</h1>
-                <p>En la actualidad las grandes cantidades de información hacen que el manejo y control de la misma se vuelva una tarea exhaustiva y muchas veces deficiente, esto claro está si no se utilizan las tecnologías de la información, ya que con
-                    estas se puede realizar dichas actividades de una forma más rápida y eficiente, en concreto con la implementación de un sistema de software. Sin embargo, las pequeñas y medianas empresas se ven en una clara desventaja al momento de
-                    utilizar estas, ya que no cuentan con los recursos, ni humanos ni materiales, para poder echar a andar un sistema de dichas características.
-                </p>
-                <h1>Objetivo</h1>
-                <p>
-                    Implementar un Sistema de Software para controlar el inventario y ventas de la librería, optimizando así los manejos de la misma.
-                </p>
-                <h1>Justificación</h1>
-                <p>
-                    Este proyecto se realizará con el fin de mejorar la efectividad de la librería como de establecer la posibilidad de ampliar aún más su mercado sin tener que preocuparse por el control y gestión de esta misma, como también que se pueda llevar un mejor
-                    control del inventario y del balance financiero de la librería para que no exista la posibilidad de que se pueda llegar a presentar algún problema, ya sea de desabastecimiento, como de falta de solvencia o problemas de baja recuperación
-                    de capital; también buscamos mejorar el servicio al cliente buscando poder ofrecerle mejores ofertas que sean de provecho para él, para la tienda y también para poderles otorgar la opción de automatizar y facilitar la compra de libros
-                    y del traslado, para que no se vuelvan a presentar problemas de confusión con los pedidos, como errores en los registros de existencias.
-
-                </p>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Sistema Gestor de Libreria</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="index.html">Inicio</a>
+                    <a class="mdl-navigation__link" href="requerimientos.html">Requerimientos</a>
+                    <a class="mdl-navigation__link" href="casosu.html">Casos de Uso</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                </nav>
             </div>
-            <footer class="mdl-mini-footer">
-                <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">Sistema Gestor de Libreria</div>
-                    <ul class="mdl-mini-footer__link-list">
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Privacy & Terms</a></li>
-                    </ul>
-                </div>
-            </footer>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">SGL</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="index.html">Inicio</a>
+                <a class="mdl-navigation__link" href="requerimientos.html">Requerimientos</a>
+                <a class="mdl-navigation__link" href="casosu.html">Casos de Uso</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
         </div>
-    </main>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div id="page-content">
+                    <h1>Introducción</h1>
+                    <p>En la actualidad las grandes cantidades de información hacen que el manejo y control de la misma se vuelva una tarea exhaustiva y muchas veces deficiente, esto claro está si no se utilizan las tecnologías de la información, ya que
+                        con estas se puede realizar dichas actividades de una forma más rápida y eficiente, en concreto con la implementación de un sistema de software. Sin embargo, las pequeñas y medianas empresas se ven en una clara desventaja al momento
+                        de utilizar estas, ya que no cuentan con los recursos, ni humanos ni materiales, para poder echar a andar un sistema de dichas características.
+                    </p>
+                    <h1>Objetivo</h1>
+                    <p>
+                        Implementar un Sistema de Software para controlar el inventario y ventas de la librería, optimizando así los manejos de la misma.
+                    </p>
+                    <h1>Justificación</h1>
+                    <p>
+                        Este proyecto se realizará con el fin de mejorar la efectividad de la librería como de establecer la posibilidad de ampliar aún más su mercado sin tener que preocuparse por el control y gestión de esta misma, como también que se pueda llevar un mejor
+                        control del inventario y del balance financiero de la librería para que no exista la posibilidad de que se pueda llegar a presentar algún problema, ya sea de desabastecimiento, como de falta de solvencia o problemas de baja recuperación
+                        de capital; también buscamos mejorar el servicio al cliente buscando poder ofrecerle mejores ofertas que sean de provecho para él, para la tienda y también para poderles otorgar la opción de automatizar y facilitar la compra de
+                        libros y del traslado, para que no se vuelvan a presentar problemas de confusión con los pedidos, como errores en los registros de existencias.
+
+                    </p>
+                </div>
+                <footer class="mdl-mini-footer">
+                    <div class="mdl-mini-footer__left-section">
+                        <div class="mdl-logo">Sistema Gestor de Libreria</div>
+                        <ul class="mdl-mini-footer__link-list">
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Privacy & Terms</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </main>
 
     </div>
 
