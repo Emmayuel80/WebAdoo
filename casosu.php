@@ -45,6 +45,34 @@
                $descripcion='El cliente podrá visualizar los libros que tiene el sistema.';
                $url='./src/pdf/UC04.pdf';
                 include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC08'; 
+               $descripcion='El cliente verifica/modifica sus datos de pago en la sección de Cuenta. ';
+               $url='./src/pdf/UC08.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC09'; 
+               $descripcion='El cliente verifica los artículos que va a comprar en el carrito. ';
+               $url='./src/pdf/UC09.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC10'; 
+               $descripcion='El cliente paga por los libros que están en su carrito.';
+               $url='./src/pdf/UC10.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC11'; 
+               $descripcion='El Administrador añade un libro al catálogo.';
+               $url='./src/pdf/UC11.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC12'; 
+               $descripcion='El Administrador modifica los datos de un libro.';
+               $url='./src/pdf/UC12.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC13'; 
+               $descripcion='El Administrador elimina un libro del catalogo.';
+               $url='./src/pdf/UC13.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC14'; 
+               $descripcion='Se le muestran los pedidos pendientes al administrador.';
+               $url='./src/pdf/UC14.pdf';
+                include "./PHP/card.php"; ?>              
         </div>
 </div>
         <?php require("./PHP/footer.php"); ?>
