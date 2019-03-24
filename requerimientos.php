@@ -7,60 +7,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-green.min.css" />
     <link rel="stylesheet" href="./CSS/content.css">
+    <link rel="stylesheet" href="./CSS/requerimientos.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <title>Documentacion ADOO</title>
-    <style>
-        
-        .mdl-data-table th {
-            background-color: #344955;
-            color: #ffffff
-        }
-        
-        .mdl-data-table th.mdl-data-table__header--sorted-ascending,
-        .mdl-data-table th.mdl-data-table__header--sorted-descending {
-            color: #ffffff
-        }
-        
-        table {
-            display: block;
-            overflow-x: auto;
-            white-space: nowrap;
-            margin-left: auto;
-            margin-right: auto;
-        }
 
-    </style>
 </head>
 
 <body>
-    <!-- Always shows a header, even in smaller screens. -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title">Sistema Gestor de Libreria</span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="index.html">Inicio</a>
-                    <a class="mdl-navigation__link" href="requerimientos.html">Requerimientos</a>
-                    <a class="mdl-navigation__link" href="casosu.html">Casos de uso</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">SGL</span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="index.html">Inicio</a>
-                <a class="mdl-navigation__link" href="requerimientos.html">Requerimientos</a>
-                <a class="mdl-navigation__link" href="casosu.html">Casos de uso</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-            </nav>
-        </div>
-        <main class="mdl-layout__content">
-            <div class="page-content">
+    <?php require("./PHP/header.php"); ?>
                 <div id="page-content">
                     <h1>Requerimientos del Proyecto</h1>
                     <p>A continuacion mostramos una tabla con los requerimientos y restricciones  para llevar a cabo el proyecto:</p>
@@ -253,20 +207,7 @@
                     </tbody>
                     </table>
                 </div>
-                </div>
-                <footer class="mdl-mini-footer">
-                    <div class="mdl-mini-footer__left-section">
-                        <div class="mdl-logo">Sistema Gestor de Libreria</div>
-                        <ul class="mdl-mini-footer__link-list">
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Privacy & Terms</a></li>
-                        </ul>
-                    </div>
-                </footer>
-            </div>
-        </main>
-
-    </div>
+<?php require("./PHP/footer.php"); ?>
 
 </body>
 
