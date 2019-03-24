@@ -207,6 +207,7 @@
                     </tbody>
                     </table>
                 </div>
+</div>
 <?php require("./PHP/footer.php"); ?>
 
 </body>
