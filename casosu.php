@@ -29,58 +29,22 @@
             <p>A continuacion se muestran los enlaces a la documentación de casos de uso:</p>
         </div>
         <div class="mdl-grid">
-            <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone">
-                <div class="mdl-card__title mdl-card--expand">
-                    <h2 class="mdl-card__title-text">Caso de uso: UC01</h2>
-                </div>
-                <div class="mdl-card__supporting-text">
-                    <p>Descripción: Iniciar sesión de un cliente existente para que pueda comprar un libro.</p>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="./src/pdf/UC01.pdf">
-                                    Ver Documento
-                                </a>
-                </div>
-            </div>
-            <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone">
-                <div class="mdl-card__title mdl-card--expand">
-                    <h2 class="mdl-card__title-text">Caso de uso: UC02</h2>
-                </div>
-                <div class="mdl-card__supporting-text">
-                    <p>Descripción: Enviar la contraseña al correo electrónico de un cliente existente en caso de que haya olvidado para que vuelva a entrar al sistema.</p>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="./src/pdf/UC02.pdf">
-                                    Ver Documento
-                                </a>
-                </div>
-            </div>
-            <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone">
-                <div class="mdl-card__title mdl-card--expand">
-                    <h2 class="mdl-card__title-text">Caso de uso: UC03</h2>
-                </div>
-                <div class="mdl-card__supporting-text">
-                    <p>Descripción: El cliente podrá darse de alta en el sistema colocando sus datos para poder realizar compras dentro del sistema.</p>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="./src/pdf/UC03.pdf">
-                                    Ver Documento
-                                </a>
-                </div>
-            </div>
-            <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone">
-                <div class="mdl-card__title mdl-card--expand">
-                    <h2 class="mdl-card__title-text">Caso de uso: UC04</h2>
-                </div>
-                <div class="mdl-card__supporting-text">
-                    <p>Descripción:El cliente podrá visualizar los libros que tiene el sistema.</p>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="./src/pdf/UC04.pdf">
-                                    Ver Documento
-                                </a>
-                </div>
-            </div>
+         <?php $titulo='Caso de uso: UC01'; 
+               $descripcion='Iniciar sesión de un cliente existente para que pueda comprar un libro.';
+               $url='./src/pdf/UC01.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC02'; 
+               $descripcion='Enviar la contraseña al correo electrónico de un cliente existente en caso de que haya olvidado para que vuelva a entrar al sistema.';
+               $url='./src/pdf/UC02.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC03'; 
+               $descripcion='El cliente podrá darse de alta en el sistema colocando sus datos para poder realizar compras dentro del sistema.';
+               $url='./src/pdf/UC03.pdf';
+                include "./PHP/card.php"; ?>
+         <?php $titulo='Caso de uso: UC04'; 
+               $descripcion='El cliente podrá visualizar los libros que tiene el sistema.';
+               $url='./src/pdf/UC04.pdf';
+                include "./PHP/card.php"; ?>
         </div>
 </div>
         <?php require("./PHP/footer.php"); ?>
