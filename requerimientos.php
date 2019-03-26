@@ -207,6 +207,13 @@
                     </tbody>
                     </table>
                 </div>
+                <p>A continucion se muestra un enlace al Documento de especificacion de requerimientos</p>
+            <div class="mdl-grid">
+                <?php $titulo='SRS'; 
+                $descripcion='Descripcion formal de los casos de uso anteriores.';
+                $url='./src/pdf/SRS.pdf';
+                include "./PHP/card.php"; ?> 
+            </div>
 </div>
 <?php require("./PHP/footer.php"); ?>
 
